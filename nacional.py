@@ -25,7 +25,7 @@ class VeiculoNacional(Veiculo): # criar a classe VeiculoNacional herdando da cla
         self.preco = preco # definir o atributo preco com o valor passado como parâmetro
 
     def __str__(self): # criar o método __str__ para retornar os dados do veículo separados por vírgula e imprimir
-      return  f"{super().__str__()} + ',' + str(self.preco)"
+      return  f"{super().__str__()}, R$ {str(self.preco)}"
 
     #getters e setters
     @property
