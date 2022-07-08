@@ -34,3 +34,21 @@ carro4 = VI('XYZ1D34', 'Uno', 'Branco', 4, 20000)
 
 print(carro3)
 print(carro4)
+
+
+#
+#############################################################################################################################
+print('#############################################')
+print("#            Exercício 3                    #")
+print("#############################################")
+#
+# a) Altere o programa Main da questão anterior para
+# cadastrar vários veículos, recebendo os dados a partir
+# da entrada do usuário (incluindo o tipo). Inclua esse
+# procedimento em um loop que só irá parar quando o
+# usuário indicar.
+# b) Crie uma lista de veículos e adicione cada veículo
+# cadastrado a essa lista.
+# c) Percorra a lista de veículos e exiba o preço de cada
+# um.
+
