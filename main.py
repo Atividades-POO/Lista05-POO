@@ -52,6 +52,8 @@ print(carro4)
 # c) Percorra a lista de veículos e exiba o preço de cada
 # um.
 
+# obs: o aluno deverá usar tratamento de exceção para entrada de dados erradas (ex: opção do menu com letras)
+
 Menu = True
 listaVeiculos = []
 while Menu:
