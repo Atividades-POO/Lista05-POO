@@ -25,4 +25,12 @@ print('#############################################')
 print("#            Exercício 2                    #")
 print("#############################################")
 #
-# importar a classe
+# importar as classes VeiculoNacional e VeiculoImportado
+from nacional import VeiculoNacional as VN # importar a classe VeiculoNacional como VN
+from importado import VeiculoImportado as VI # importar a classe VeiculoImportado como VI
+
+carro3 = VN('ABC1D34', 'jipe', 'Azul', 2, 10000)
+carro4 = VI('XYZ1D34', 'Uno', 'Branco', 4, 20000)
+
+print(carro3)
+print(carro4)
